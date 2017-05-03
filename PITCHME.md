@@ -1,7 +1,7 @@
 # CS-3620
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [GPG Encrypted Email](http://openpgp.org/software/) |
+- [OpenGPG-Email](http://openpgp.org/software/) |
 
 +++
 
