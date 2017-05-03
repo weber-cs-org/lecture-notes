@@ -1,7 +1,8 @@
+# Welcom To
 # CS-3620
 
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpenGPG-Email](http://openpgp.org/software/) |
+- Syllabus [link](https://weber.instructure.com/courses/439313/assignments/syllabus)
+- OpenGPG-Email [link](http://openpgp.org/software/) |
 
 +++
 
