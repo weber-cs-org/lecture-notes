@@ -1,8 +1,9 @@
 ### Welcome to
 ## CS-3620
 
-- Syllabus ![link](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- OpenGPG-Email ![link](http://openpgp.org/software/) |
+- Syllabus
+- OpenGPG-Email |
+- Assignments   |
 
 +++
 
@@ -18,6 +19,17 @@
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
 - [OpendGPG[(http://openpgp.org/software/)
+
+
++++
+
+### Welcome to
+## CS-3620
+
+- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
+- [OpendGPG[(https://openpgp.org/software/)
+- [Assignments](https://repl.it)
+
 ---
 
 ### The PHP Language
