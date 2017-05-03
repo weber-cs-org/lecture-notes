@@ -1,4 +1,4 @@
-#Welcome to WSU CS3620
+##Welcome to CS-3620
 
 1. [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
 2. [GPG Encrypted Email](http://openpgp.org/software/)
