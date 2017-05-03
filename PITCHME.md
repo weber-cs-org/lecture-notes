@@ -5,13 +5,11 @@
 
 +++
 
-### Languages
+### Welcome CS-3620
 
-- Java
-- JavaScript |
-- Kotlin     |
-- Go         |
-- Scala      |
+- Syllabus
+- OpenGPG Email |
+- Assignments   |
 
 ---
 
