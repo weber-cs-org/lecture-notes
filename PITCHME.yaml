@@ -2,4 +2,5 @@ charts : true
 highlight : darkula
 logo : assets/logo.png
 theme : white
+transition: default
 vertical-center : false
