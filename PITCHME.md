@@ -37,9 +37,16 @@
 - What does PHP stand for?
 - Hypertext Preprocessor |
 
----
++++
 
 ### The PHP Language
 
 - [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
-- [PHP: The Right Way](http://www.phptherightway.com) |
+
++++
+
+### The PHP Language
+
+- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
+- [PHP: The Right Way](http://www.phptherightway.com)
+
