@@ -1,0 +1,5 @@
+charts : true
+highlight : darkula
+logo : assets/logo.png
+theme : white
+vertical-center : false
