@@ -18,7 +18,7 @@
 ## CS-3620
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG[(http://openpgp.org/software/)
+- [OpendGPG](http://openpgp.org/software/)
 
 
 +++
@@ -27,7 +27,7 @@
 ## CS-3620
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG[(https://openpgp.org/software/)
+- [OpendGPG](https://openpgp.org/software/)
 - [Assignments](https://repl.it)
 
 ---
