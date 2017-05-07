@@ -61,8 +61,51 @@ $value_ten = function() {
 
 +++
 
+- **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters.
+
+**Invalid**
+
+```
+function my_func($x) {
+    $x = 2;
+    ...
+}
+```
+
++++
+
 ### Programming Limitations
 
 - **No assignments**: Not allowed to assign values to variables. However allowed to assign functions to variables.
 - **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters.
 - **No while and for loops**: Not allowed to use *while* or *for* commands.
+
++++
+
+- **No while and for loops**: Not allowed to use *while* or *for* commands.
+
+**Invalid**
+
+```
+$i = 1;
+while ($i <= 10) {
+    echo $i++;
+}
+```
+
+and
+
+```
+for ($i = 1; $i <= 10; $i++) {
+    echo $i;
+}
+```
+
+or
+
+```
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &$value) {
+    $value = $value * 2;
+}
+```
