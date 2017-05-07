@@ -20,7 +20,7 @@
 
 ## OpenPGP Email
 
-- <a href="https://openpgp.org/software/" target="_blank">OpenPGP</a>
+- <a href="http://openpgp.org/software/" target="_blank">OpenPGP</a>
 
 ---
 
