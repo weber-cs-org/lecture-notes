@@ -11,26 +11,71 @@
 ## Agenda
 
 - First-class Functions
-- Recursion |
 - Anonymous Functions |
 - Closures |
+- Recursion |
 - Programming Limitations |
 
 ---
 
 ### First-class Functions
 
----
+```
+$input = array(1, 2, 3, 4, 5, 6);
 
-### Recursion
+// Creates a new anonymous function and assigns it to a variable
+$filter_even = function($item) {
+    return ($item % 2) == 0;
+};
+
+// Built-in array_filter accepts both the data and the function
+$output = array_filter($input, $filter_even);
+
+print_r($output);
+```
 
 ---
 
 ### Anonymous Functions
 
+```
+$input = array(1, 2, 3, 4, 5, 6);
+
+// Creates a new anonymous function and assigns it to a variable
+$filter_even = function($item) {
+    return ($item % 2) == 0;
+};
+
+// The function doesn't need to be assigned to a variable.
+$output = array_filter($input, function($item) {
+    return ($item % 2) == 0;
+});
+
+print_r($output);
+
+```
+
 ---
 
 ### Closures
+
+> A closure is an anonymous function that can access variables imported from the outside scope without using any global variables.
+>
+> Closures can work around variable scope restrictions in a clean way.
+
+```
+function criteria_greater_than($min) {
+    return function($item) use ($min) {
+        return $item > $min;
+    };
+}
+```
+
+---
+
+### Recursion
+
+> Recursion, a feature that allows a function to call itself, is supported by the language, but most of the PHP code focus is on iteration.
 
 ---
 
