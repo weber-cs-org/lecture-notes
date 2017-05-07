@@ -39,12 +39,38 @@
 
 ### The PHP Language
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
+- <a href="https://w3techs.com/technologies/overview/programming_language/all" target="_blank">Usage Statistics and Market Share</a>
 
 +++
 
 ### The PHP Language
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
-- [PHP: The Right Way](http://www.phptherightway.com)
+- <a href="https://w3techs.com/technologies/overview/programming_language/all" target="_blank">Usage Statistics and Market Share</a>
+- <a href="http://www.phptherightway.com" target="_blank">PHP: The Right Way</a>
 
++++
+
+### The PHP Language
+
+- <a href="https://w3techs.com/technologies/overview/programming_language/all" target="_blank">Usage Statistics and Market Share</a>
+- <a href="http://www.phptherightway.com" target="_blank">PHP: The Right Way</a>
+- Installation
+
++++
+
+### The PHP Language
+
+- <a href="https://w3techs.com/technologies/overview/programming_language/all" target="_blank">Usage Statistics and Market Share</a>
+- <a href="http://www.phptherightway.com" target="_blank">PHP: The Right Way</a>
+- Installation
+- Functional Programming
+
++++
+
+### The PHP Language
+
+- <a href="https://w3techs.com/technologies/overview/programming_language/all" target="_blank">Usage Statistics and Market Share</a>
+- <a href="http://www.phptherightway.com" target="_blank">PHP: The Right Way</a>
+- Installation
+- Functional Programming
+- Object-oriented Programming
