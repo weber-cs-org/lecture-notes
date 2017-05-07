@@ -64,11 +64,10 @@ print_r($output);
 > Closures can work around variable scope restrictions in a clean way.
 
 ```php
-function criteria_greater_than($min) {
-    return function($item) use ($min) {
-        return $item > $min;
-    };
-}
+$variable = 10;
+$closure = function($arg) use ($variable) {
+    return $arg + ", " + $variable;
+};
 ```
 
 ---
