@@ -20,7 +20,7 @@
 
 ### First-class Functions
 
-```
+```php
 $input = array(1, 2, 3, 4, 5, 6);
 
 // Creates a new anonymous function and assigns it to a variable
@@ -38,7 +38,7 @@ print_r($output);
 
 ### Anonymous Functions
 
-```
+```php
 $input = array(1, 2, 3, 4, 5, 6);
 
 // Creates a new anonymous function and assigns it to a variable
@@ -63,7 +63,7 @@ print_r($output);
 >
 > Closures can work around variable scope restrictions in a clean way.
 
-```
+```php
 function criteria_greater_than($min) {
     return function($item) use ($min) {
         return $item > $min;
@@ -85,13 +85,13 @@ function criteria_greater_than($min) {
 
 **Invalid**
 
-```
+```php
 $value = 10;
 ```
 
 **Valid**
 
-```
+```php
 $value_ten = function() {
     return 10;
 }
@@ -110,7 +110,7 @@ $value_ten = function() {
 
 **Invalid**
 
-```
+```php
 function my_func($x) {
     $x = 2;
     ...
@@ -131,7 +131,7 @@ function my_func($x) {
 
 **Invalid**
 
-```
+```php
 $i = 1;
 while ($i <= 10) {
     echo $i++;
@@ -140,7 +140,7 @@ while ($i <= 10) {
 
 and
 
-```
+```php
 for ($i = 1; $i <= 10; $i++) {
     echo $i;
 }
@@ -148,7 +148,7 @@ for ($i = 1; $i <= 10; $i++) {
 
 or
 
-```
+```php
 $arr = array(1, 2, 3, 4);
 foreach ($arr as &$value) {
     $value = $value * 2;
