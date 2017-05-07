@@ -1,6 +1,10 @@
 ### Welcome to
 ## CS-3620
 
+---
+
+## Agenda
+
 - Syllabus
 - OpenGPG-Email |
 - Assignments   |
