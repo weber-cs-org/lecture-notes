@@ -1,52 +1,39 @@
-### Welcome to
-## CS-3620
+## Functional Programming
 
-- Syllabus
-- OpenGPG-Email |
-- Assignments   |
+### in
 
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](http://openpgp.org/software/)
-
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](https://openpgp.org/software/)
-- [Assignments](https://repl.it)
+## PHP 
 
 ---
 
-### The PHP Language
+## Agenda
 
-- What does PHP stand for?
-- Hypertext Preprocessor |
+- First-class Functions
+- Recursion |
+- Anonymous Functions |
+- Closures |
+- Programming Limitations |
 
-+++
+---
 
-### The PHP Language
+## First-class Functions
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
+---
 
-+++
+## Recursion
 
-### The PHP Language
+---
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
-- [PHP: The Right Way](http://www.phptherightway.com)
+## Anonymous Functions
 
+---
+
+## Closures
+
+---
+
+## Programming Limitations
+
+- **No assignments**: Not allowed to assign values to variables. However allowed to assign functions to variables.
+- **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters. |
+- **No while and for loops**: Not allowed to use *while* or *for* commands. |
