@@ -1,5 +1,6 @@
-### Welcome to
-## CS-3620
+## Welcome to
+# CS-3620
+## Server-Side Web Development
 
 ---
 
@@ -11,15 +12,13 @@
 
 +++
 
-### Welcome to
-## CS-3620
+## Agenda
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
 
 +++
 
-### Welcome to
-## CS-3620
+## Agenda
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
 - [OpendGPG](http://openpgp.org/software/)
@@ -27,8 +26,7 @@
 
 +++
 
-### Welcome to
-## CS-3620
+## Agenda
 
 - [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
 - [OpendGPG](https://openpgp.org/software/)
