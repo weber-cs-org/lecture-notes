@@ -15,8 +15,8 @@
 ## Agenda
 
 - <a href="https://weber.instructure.com/courses/439313/assignments/syllabus" target="_blank">Syllabus</a> 
-- <a href="https://openpgp.org/software/" target="_blank">OpenPGP</a> |
-- <a href="https://repl.it" target="_blank">Assignments</a> |
+- <a href="https://openpgp.org/software/" target="_blank">OpenPGP</a><!-- .element: class="fragment" -->
+- <a href="https://repl.it" target="_blank">Assignments</a><!-- .element: class="fragment" -->
 
 ---
 
