@@ -1,4 +1,6 @@
-## Functional Programming
+## Functional
+
+## Programming
 
 ### in
 
@@ -35,5 +37,18 @@
 ## Programming Limitations
 
 - **No assignments**: Not allowed to assign values to variables. However allowed to assign functions to variables.
-- **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters. |
-- **No while and for loops**: Not allowed to use *while* or *for* commands. |
+
++++
+
+## Programming Limitations
+
+- **No assignments**: Not allowed to assign values to variables. However allowed to assign functions to variables.
+- **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters.
+
++++
+
+## Programming Limitations
+
+- **No assignments**: Not allowed to assign values to variables. However allowed to assign functions to variables.
+- **No mutable state**: Not allowed, in case of an assignment, to change the value of that assignment.  Also, not allowed to change the value of any variable that had its value set as the parameter for the current function.  No changing of parameters.
+- **No while and for loops**: Not allowed to use *while* or *for* commands.
