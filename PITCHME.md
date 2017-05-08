@@ -27,6 +27,7 @@
 ## Assignments
 
 - <a href="https://repl.it" target="_blank">Assignments</a>
+- [Invitation Link](https://repl.it/classroom/invite/FD6dcR4)
 
 ---
 
