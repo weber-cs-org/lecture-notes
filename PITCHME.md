@@ -1,52 +1,160 @@
-### Welcome to
-## CS-3620
+## Object-oriented
 
-- Syllabus
-- OpenGPG-Email |
-- Assignments   |
+## Programming
 
-+++
+### in
 
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](http://openpgp.org/software/)
-
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](https://openpgp.org/software/)
-- [Assignments](https://repl.it)
+## PHP 
 
 ---
 
-### The PHP Language
+## Agenda
 
-- What does PHP stand for?
-- Hypertext Preprocessor |
+- Classes & Objects
+- Inheritance |
+- Interfaces |
+- Visibility |
+- Programming Limitations |
+
+---
+
+Classes & Objects
+-----------------
+
+**Declaration**
+
+```
+<?php
+class Car {
+    
+}
+```
 
 +++
 
-### The PHP Language
+Classes & Objects
+-----------------
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
+**Properties**
+
+```
+<?php
+class Car {
+    private $_hasSunroof = true;
+}
+```
 
 +++
 
-### The PHP Language
+Classes & Objects
+-----------------
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
-- [PHP: The Right Way](http://www.phptherightway.com)
+**Methods**
 
+```
+class Car {
+    public function hasSunroof() {
+        return &this->_hasSunroof;
+    }
+}
+```
+
++++
+
+Classes & Objects
+-----------------
+
+**Constants**
+
+```
+<?php
+class Car {
+    const ENGINE_V4 = 'V4';
+    const ENGINE_V6 = 'V6';
+    const ENGINE_V8 = 'V8';
+}
+
+echo Car::ENGINE_V6; // V6
+```
+
++++
+
+Classes & Objects
+-----------------
+
+**Instantiation**
+
+```
+<?php
+$myCar = new Car();
+if ($myCar->hasSunroof()) {
+    echo 'Yay!';
+}
+```
+
+---
+
+Inheritance
+-----------
+
+```
+<?php
+class Chevy extends Car {
+    
+}
+```
+
++++
+
+Inheritance
+-----------
+
+```
+<?php
+interface Vehicle {
+    public function hasSunroof();
+}
+```
+
++++
+
+Inheritance (implementing)
+--------------------------
+
+```
+<?php
+class Car implements Vehicle {
+    public function hasSunroof() {
+        return $this->_hasSunroof;
+    }
+}
+```
+
+---
+
+Visibility (public)
+-------------------
+
+- Default visibility
+- Visible everywhere |
+
++++
+
+Visibility (protected)
+----------------------
+
+- Visible to child classes
+- Visible to object itself |
+- Visible to other objects of the same type |
+
++++
+
+Visibility (private)
+--------------------
+
+- Visible to the object itself
+- Visible within the defining class declaration |
+
+---
+
+# Questions?
