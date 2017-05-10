@@ -56,7 +56,7 @@ Who uses PHP?
 - Yahoo
 - Facebook |
 - Wordpress |
-- 20+ million other domain names
+- 20 plus million other domains |
 
 +++
 
