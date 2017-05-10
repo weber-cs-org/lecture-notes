@@ -14,7 +14,6 @@
 - Inheritance |
 - Interfaces |
 - Visibility |
-- Programming Limitations |
 
 ---
 
@@ -156,5 +155,7 @@ Visibility (private)
 - Visible within the defining class declaration |
 
 ---
+
+
 
 # Questions?
