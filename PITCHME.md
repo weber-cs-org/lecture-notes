@@ -493,3 +493,8 @@ function add($x, $y) {
 
 echo add(2, 4); // 6
 ```
+
+---
+
+
+# QUESTIONS?
