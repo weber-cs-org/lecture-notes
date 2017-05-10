@@ -211,7 +211,7 @@ switch ($string_variable) {
 Conditionals (switch)
 ---------------------
 
-Do you BEST to NOT to 
+Do your BEST to NOT to 
 use the **switch** or
 the **if-then-else-if**!
 
@@ -282,3 +282,186 @@ if (true && false) { echo 'No'; }
 // OR 
 if (true || false) { echo 'No'; }
 ```
+
+---
+
+Strings
+-------
+
+```
+<?php
+$x = 2;
+echo 'I ate $x cookies';
+echo 'I ate ' . $x . ' cookies';
+echo "I ate $x cookies";
+echo "I ate \$x cookies"; // I ate $x cookies
+echo "I ate {$x} cookies";
+```
+
+---
+
+Constants (old school)
+----------------------
+
+```
+<?php
+define('HELLO', 'Hello, WSU CS-3620');
+echo HELLO;
+```
+
++++
+
+Constants (new school)
+---------
+
+```
+<?php
+const HELLO = 'Hello, WSU CS-3620';
+echo HELLO;
+```
+
+---
+
+Arrays (automatic)
+------------------
+
+```
+<?php
+$foo[] = 'bar'; // [0] => bar
+$foo[] = 'baz'; // [1] => baz
+```
+
++++
+
+Arrays (explicit)
+-----------------
+
+```
+<?php
+$foo[0] = 'bar'; // [0] = bar
+$foo[1] = 'baz'; // [1] = baz
+```
+
++++
+
+Arrays (construction)
+---------------------
+
+**new**
+
+```
+<?php
+$foo = [
+    'bar',
+    'baz',
+];
+```
+
+**old**
+
+```
+<?php
+$foo = array(
+    'bar',
+    'baz',
+);
+```
+
++++
+
+Arrays (construction)
+---------------------
+
+**new**
+
+```
+<?php
+$foo = [
+    0 => 'bar',
+    1 => 'baz',
+];
+```
+
+**old**
+
+```
+<?php
+$foo = array(
+    0 => 'bar',
+    1 => 'baz',
+);
+```
+
++++
+
+Arrays (key, value)
+-------------------
+
+```
+<?php
+$foo = [
+    'a' => 'bar',
+    'b' => 'baz',
+];
+```
+
+---
+
+Iterators (while, do-while)
+---------------------------
+
+```
+<?php
+$x = 0;
+while ($x < 5) {
+    echo '.';
+    $x++;
+}
+```
+
+```
+<?php
+$x = 0;
+do {
+    echo '.';
+    $x++;
+} while($x < 5);
+```
+
++++
+
+Iterators (for)
+---------------
+
+```
+<?php
+for ($i = 0; $i < 5; $x++) {
+    echo '.';
+}
+```
+
++++
+
+Iterators (foreach)
+-------------------
+
+```
+<?php
+$x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+foreach($x as $y) {
+    echo $y;
+}
+```
+
+```
+<?php
+$talks = [
+    'php'  => 'Intro to PHP',
+    'ruby' => 'Intro to Ruby',
+];
+foreach ($talks as $id => $name) {
+    echo "$name is talk ID $id." . PHP_EOL;
+}
+```
+
+---
