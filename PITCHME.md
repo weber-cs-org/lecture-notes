@@ -465,3 +465,32 @@ foreach ($talks as $id => $name) {
 ```
 
 ---
+
+Functions (built-in)
+--------------------
+
+```
+<?php 
+echo strlen('Hello'); // 5 
+echo trim(' Hello '); // Hello 
+echo count(array(0, 1, 2, 3)); // 4 
+echo uniqid(); // 4c8a6660519d5 
+echo mt_rand(0, 9); // 3 
+echo serialize(42); // i:42; 
+echo json_encode(array('a' => 'b')); // {"a":"b"}
+```
+
++++
+
+Functions (user-defined)
+------------------------
+
+```
+<?php 
+function add($x, $y) {
+    return $x + $y;
+}
+
+echo add(2, 4); // 6
+```
+```
