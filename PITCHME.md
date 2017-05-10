@@ -1,52 +1,36 @@
-### Welcome to
-## CS-3620
-
-- Syllabus
-- OpenGPG-Email |
-- Assignments   |
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](http://openpgp.org/software/)
-
-
-+++
-
-### Welcome to
-## CS-3620
-
-- [Syllabus](https://weber.instructure.com/courses/439313/assignments/syllabus)
-- [OpendGPG](https://openpgp.org/software/)
-- [Assignments](https://repl.it)
+### Introduction
+### to
+## PHP
 
 ---
 
-### The PHP Language
+### Web Programming Concepts
 
-- What does PHP stand for?
-- Hypertext Preprocessor |
-
-+++
-
-### The PHP Language
-
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
+![LAMP](assets/LAMP.png "LAMP Stack")
 
 +++
 
-### The PHP Language
+### Server-side Techniques
 
-- [Usage Statistics and Market Share](https://w3techs.com/technologies/overview/programming_language/all)
-- [PHP: The Right Way](http://www.phptherightway.com)
+- Server-side scripting requires installation and setup on the server-side
+- Clients is unaware that the `html` was produced by the server-side script. |
+- Does **not** require any installations, add-ons or plugins on the client. |
 
++++
+
+### Client-side Techniques
+
+- Requires that the client supports the techniques.
+- Javascript |
+- Flash |
+- Applet |
+
++++
+
+### Things that make you go... HMMM?
+
+- Difference between a Web application and site?
+- Rich internet application |
+- AJAX |
+- Thin client |
+- Full application running in the browser or just static pages? |
