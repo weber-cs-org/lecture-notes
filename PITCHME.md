@@ -327,7 +327,7 @@ Operators (precedence)
 ----------------------
 
 - Precedence determines order in which operators are evaluated
-- Express 1+5*3 evaluates to 16 not 18 because (*) is higher than the (+) |
+- Express 1+5\*3 evaluates to 16 not 18 because (*) is higher than the (+) |
 - Parentheses may be used to specify order, for instance (1+5)*3 evaluates to 18 |
 - When operators have equal precedence their associativity determines the order |
 - 1-2-3 is the same as (1-2)-3 and evaluates to -4 |
