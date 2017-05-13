@@ -120,10 +120,12 @@ Multi-line Comments
  */
  ```
 
-+++
+---
 
-Primitive Data Types
---------------------
+Scalar Data Types 
+-----------------
+
+Single Value
 
 ```
 <?php
@@ -133,6 +135,48 @@ $pi = 3.14;                                     // float
 $event = '<div name="div0">WSU CS-3620</div>';  // string
 $event2 = "WSU CS-3620";                        // string
 ```
+
++++
+
+Compound Data Types
+-------------------
+
+Array
+
+```
+<?php
+$hash = [
+    0 => 'zero',
+    1 => 'one',
+    2 => 'two'
+];
+
+```
+
++++
+
+Compound Data Types
+-------------------
+
+Object
+
+```
+<?php
+class Simple {
+    protected $prop;
+    public function doItNow() {
+        echo "Nike said 'Do it now!'";
+    }
+}
+```
+
++++
+
+Special Data Types
+------------------
+
+- NULL
+- Resource |
 
 ---
 
@@ -232,6 +276,29 @@ $d = $a * 5; // 50
 $e = $a / 2; // 5 
 $f = $a % 3; // 1
 ```
+
++++
+
+Operators (inc/dec)
+-------------------
+
+<table>
+  <tr>
+    <th>Example</th>
+    <th>Name</th> 
+    <th>Effect</th>
+  </tr>
+  <tr>
+    <td>`++$a`</td>
+    <td>Pre-increment</td>
+    <td>Increments $a by one, evaluates to $a</td>
+  </tr>
+  <tr class="fragment">
+    <td>`$a++`</td>
+    <td>Post-increment</td>
+    <td>Evaluate to $a, then increments $a by one</td>
+  </tr>
+</table>
 
 +++
 
