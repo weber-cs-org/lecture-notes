@@ -289,7 +289,7 @@ Operators (inc/dec)
     <th>Effect</th>
   </tr>
   <tr>
-    <td>`++$a`</td>
+    <td>++$a</td>
     <td>Pre-increment</td>
     <td>Increments $a by one, evaluates to $a</td>
   </tr>
@@ -297,6 +297,16 @@ Operators (inc/dec)
     <td>`$a++`</td>
     <td>Post-increment</td>
     <td>Evaluate to $a, then increments $a by one</td>
+  </tr>
+  <tr>
+    <td>--$a</td>
+    <td>Pre-decrement</td>
+    <td>Decrements $a by one, evaluates to $a</td>
+  </tr>
+  <tr class="fragment">
+    <td>`$a--`</td>
+    <td>Post-decrement</td>
+    <td>Evaluate to $a, then decrements $a by one</td>
   </tr>
 </table>
 
