@@ -298,7 +298,7 @@ Operators (inc/dec)
     <td>Post-increment</td>
     <td>Evaluate to $a, then increments $a by one</td>
   </tr>
-  <tr>
+  <tr class="fragment">
     <td>--$a</td>
     <td>Pre-decrement</td>
     <td>Decrements $a by one, evaluates to $a</td>
